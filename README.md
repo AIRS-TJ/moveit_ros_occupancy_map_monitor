@@ -12,3 +12,16 @@ https://github.com/ros-planning/moveit/tree/melodic-devel/moveit_ros/occupancy_m
 
 $ roslaunch moveit_ros_occupancy_map_monitor test.launch
 
+(当前无法使用)
+
+**直接调用octomap_server的方法：**
+
+$ sudo apt-get install ros-melodic-octomap-ros 
+
+$ sudo apt-get install ros-melodic-octomap-msgs 
+
+$ sudo apt-get install ros-melodic-octomap-server
+
+$ sudo apt-get install ros-melodic-octomap-rviz-plugins
+
+$ roslaunch moveit_ros_occupancy_map_monitor octomap_server.launch
