@@ -8,6 +8,10 @@ https://github.com/ros-planning/moveit/tree/melodic-devel/moveit_ros/occupancy_m
 
 说明：move it 的Octomap插件
 
+$ git clone 
+
+$ catkin_make
+
 **运行：**
 
 $ roslaunch moveit_ros_occupancy_map_monitor test.launch
