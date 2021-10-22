@@ -10,7 +10,11 @@ https://github.com/ros-planning/moveit/tree/melodic-devel/moveit_ros/occupancy_m
 
 **安装：**
 
+$ cd catkin_ws/src/
+
 $ git clone https://github.com/AIRS-TJ/moveit_ros_occupancy_map_monitor.git
+
+$ cd ..
 
 $ catkin_make
 
